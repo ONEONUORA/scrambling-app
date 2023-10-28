@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Scrambling App</title>
+</head>
+<body>
+    <h1>{##Scrambling*\|/*$? App}</h1>
+    <form>
+        <label for="text" class="red-label">Enter Text:</label>
+        <textarea id="text" rows="4" cols="50"></textarea><br>
+        <label for="wordsToScramble">Words to Scramble</label>
+        <input type="text" id="wordsToScramble"><br>
+        <label for="replacement">Replacement:</label>
+        <input type="text" id="replacement" placeholder="e.g., ****">
+
+        <button type="submit">Redact Now</button><br><br>
+        <button id="refreshButton">Refresh</button><br>
+        
+    </form>
+  
+    <p>COPYRIGHT &copy 2023. created by One.</p>
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>

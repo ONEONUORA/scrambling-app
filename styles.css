@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   background-color: rgb(107, 106, 106);
+}
+
+h1 {
+    color: #6a1515;
+}
+
+form {
+    
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #303544;
+    font-size: 25px;
+}
+
+label, textarea, input {
+    display: flex;
+    margin-bottom: 10px;
+}
+.red-label {
+    color: rgb(236, 227, 227);
+    font-size: 25px;
+  }
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+
+button:hover {
+    background-color: #2e3236;
+}
+
+
+#results {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
